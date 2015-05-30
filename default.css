@@ -12,21 +12,21 @@
 .main{
   background-color:#E6E6E6;
   width:100%;
-  height:5em;
+  height:300px;
 }
 
 .main h1{
   font-family: "Verdana";
-  font-size: 200px;
-  margin-right: 1em;
-  margin-top: 1em;
+  font-size: 90px;
+  margin-right: 150px;
+  margin-top: 150px;
   color: blue;
 }
 
 .main p{
   font-family: "Verdana";
-  font-size: 100px;
-  margin-right: 1em;
+  font-size: 50px;
+  margin-right: 150px;
   margin-top: ;
   color: blue;
 }
@@ -52,13 +52,13 @@
 }
 
 .about h3{
-  font-size:15px;
+  font-size:30px;
   font-family: "Times New Roman", Times, serif;
   color: #767474;
 }
 
 .about p{
-  font-size: 9px;
+  font-size: 20px;
   font-family: "Times New Roman", Times, serif;
   color: black;
 }
