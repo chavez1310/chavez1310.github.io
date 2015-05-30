@@ -1,20 +1,21 @@
-header{
+.header{
   background-color:#C8C7C7;
 
 }
 
-header ul{
+.header li{
   display: inline-block;
   color:#FFFFFF;
 
 }
 
-section{
+.margin{
   background-color:#E6E6E6;
-
+  width:100%;
+  height:30em;
 }
 
-section h1{
+.main h1{
   font-family: "Verdana";
   font-size: 30px;
   margin-right: 100px;
@@ -22,7 +23,7 @@ section h1{
   color: blue;
 }
 
-section p{
+.main p{
   font-family: "Verdana";
   font-size: 15px;
   margin-right: 100px;
@@ -35,12 +36,19 @@ section p{
   padding:5px;
   border: 15px, solid gray;
   margin: 5px;
-  background-color:#CFCFCF;
 }
 
 .mypic {
   width: 80px;
   padding:0px;
+}
+
+.about {
+  width:200px;
+  padding: 5px;
+  border: 15px; solid gray;
+  margin: 2px;
+  background-color:#CFCFCF;
 }
 
 .about h3{
@@ -55,6 +63,9 @@ section p{
   color: black;
 }
 
-.workpics ul{
-  display: inline-block;
+.workpics ul li {
+    background-image: url("http://image.shutterstock.com/display_pic_with_logo/164782/188478623/stock-vector-vector-urban-concept-in-flat-style-skyscrapers-and-modern-tall-buildings-city-illustration-188478623.jpg");
+    background-repeat: no-repeat;
+    background-position: 0px center;
+    padding-left: 15px;
 }
