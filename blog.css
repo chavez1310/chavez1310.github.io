@@ -1,0 +1,41 @@
+header{
+  background-color:#C8C7C7;
+  margin-top: 0px;
+  position: relative;
+
+}
+
+header li{
+  display: inline;
+  color:#FFFFFF;
+}
+
+main h1 {
+    font-family: Verdana;
+    font-size: 25px;
+}
+
+main h4 {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+main {
+    background-color:#BFBFD4;
+    text-align: center;
+    border: 2px dashed black;
+    margin: 5px;
+    width: 100%;
+}
+
+section {
+    background-color:#BFBFD4;
+    border: 2px dashed black;
+    width: 100%;
+    padding: 8px;
+}
+
+section p {
+    font-family: courier;
+    font-size: 13px;
+}
