@@ -1,5 +1,10 @@
+<<<<<<< HEAD
+.header{
+  background-color:#687291
+=======
 header{
   background-color:#C8C7C7;
+>>>>>>> master
 
 }
 
@@ -10,15 +15,16 @@ header li{
 }
 
 .main{
-  background-color:#E6E6E6;
+  background-image:url ("mountains.jpeg");
+  background-repeat: no-repeat
   width:100%;
   height:300px;
 }
 
 .main h1{
   font-family: "Verdana";
-  font-size: 40px;
-  color: blue;
+  font-size: 30px;
+  color: #D2D5DE;
   margin:0;
   text-align: center;
 }
@@ -26,7 +32,7 @@ header li{
 .main p{
   font-family: "Verdana";
   font-size: 15px;
-  color: blue;
+  color: #D2D5DE;
   margin:0;
   text-align: center;
 }
@@ -46,24 +52,23 @@ header li{
 
 .about {
   width:200px;
-  padding: 5px;
-  border: 15px; solid black;
+  padding: 15px;
+  border: 5px; solid red;
   margin-left: auto;
-  margin-right: auto;
-  background-color:#CFCFCF;
+  background-color:#4D5F94;
 }
 
 .about h3{
   font-size:30px;
   font-family: "Times New Roman", Times, serif;
-  color: #767474;
+  color:  #D2D5DE;
   text-align: center;
 }
 
 .about p{
   font-size: 14px;
-  font-family: "Times New Roman", Times, serif;
-  color: black;
+  font-family: "Verdana", Times, serif;
+  color:  #D2D5DE;
   text-align: center;
 }
 
@@ -72,13 +77,64 @@ header li{
   padding:5px;
 }
 
-.workpics ul li {
-    background-image: url("http://image.shutterstock.com/display_pic_with_logo/164782/188478623/stock-vector-vector-urban-concept-in-flat-style-skyscrapers-and-modern-tall-buildings-city-illustration-188478623.jpg");
-    background-repeat: no-repeat;
-    background-position: 0px center;
-    padding-left: 8em;
+.contact {
+    padding-top: 50px;
+    padding-bottom: 110px;
+    background-color: #f5f2e0 ;
 }
 
-.workpics li{
-  display: inline;
+.contact  h1 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 300px;
+  font-size: 60px;
+  text-align:center;
 }
+
+.contact p {
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align:center;
+}
+
+.emailIcon {
+  width: 9.9%;
+  max-width: 80px;
+  background-image: url(https://s3.amazonaws.com/agustinchavez.ninja/mail-with-circle.svg);
+  height: 39px;
+  margin: 25px 0px 0px 0px;
+  background-repeat: no-repeat;
+  background-position: top center;
+ }
+
+.twittericon {
+  width: 9.9%;
+  max-width: 80px;
+  background-image: url(https://s3.amazonaws.com/agustinchavez.ninja/twitter-with-circle.svg);
+  height: 39px;
+  margin: 25px 0px 0px 0px;
+  background-repeat: no-repeat;
+  background-position: top center;
+ }
+
+ .githubicon {
+  width: 9.9%;
+  max-width: 80px;
+  background-image: url(https://s3.amazonaws.com/agustinchavez.ninja/github-with-circle.svg);
+  height: 39px;
+  margin: 25px 0px 0px 0px;
+  background-repeat: no-repeat;
+  background-position: top center;
+ }
+
+ .googleplusicon {
+  width: 9.9%;
+  max-width: 80px;
+  background-image: url(https://s3.amazonaws.com/agustinchavez.ninja/google%2B-with-circle.svg);
+  height: 39px;
+  margin: 25px 0px 0px 0px;
+  background-repeat: no-repeat;
+  background-position: top center;
+ }
+
+ .contactwidgets {
+  display: inline-block;
+ }
