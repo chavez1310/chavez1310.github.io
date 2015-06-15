@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 .header{
   background-color:#687291
+=======
+header{
+  background-color:#C8C7C7;
+>>>>>>> master
 
 }
 
-.header li{
+header li{
   display: inline;
   color:#FFFFFF;
 
