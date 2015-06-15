@@ -1,12 +1,13 @@
 
 .header{
-  background-color:#687291
+  background-color:#687291;
 
 }
 
 header li{
   display: inline;
   color:#FFFFFF;
+  background-color: #4D5F94;
 
 }
 
@@ -77,7 +78,7 @@ header li{
 .contact {
     padding-top: 50px;
     padding-bottom: 110px;
-    background-color: #f5f2e0 ;
+    background-color: #4D5F94 ;
 }
 
 .contact  h1 {
