@@ -1,22 +1,48 @@
 
-.header{
-  background-color:#687291;
-
+.header {
+    background-color: #4D5F94;
+    width: 100%;
+    height:55px;
+    position: aboslute;
 }
 
-header li{
+.header h1 {
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+  margin: 0 0 0 5px;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.dropdown {
+  position: relative;
   display: inline;
-  color:#FFFFFF;
-  background-color: #4D5F94;
-
+  cursor: pointer;
 }
 
-.main{
-  background-image:url ("chavez1310.github.io/mountains.jpeg
-");
-  background-repeat: no-repeat
-  width:100%;
-  height:300px;
+.dropdown-menu {
+  border-radius:0px;
+  box-shadow:none;
+  border:none;
+  min-width: 200px;
+  top: 32px;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dropdown-menu li  {
+  color: #fff;
+  font-size: 16px;
+  padding: 5px 15px;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+.main {
+  height: 900px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url ("http://chavez1310.github.io/mountains.jpeg");
+
 }
 
 .main h1{
@@ -43,13 +69,9 @@ header li{
   margin-right: auto;
 }
 
-.mypic {
-  width: 80px;
-  padding:0px;
-}
 
 .about {
-  width:200px;
+  width:100%;
   padding: 15px;
   border: 5px; solid red;
   margin-left: auto;
@@ -94,46 +116,16 @@ header li{
   text-align:center;
 }
 
-.emailIcon {
-  width: 9.9%;
-  max-width: 80px;
-  background-image: url(https://s3.amazonaws.com/agustinchavez.ninja/mail-with-circle.svg);
-  height: 39px;
-  margin: 25px 0px 0px 0px;
-  background-repeat: no-repeat;
-  background-position: top center;
- }
-
-.twittericon {
-  width: 9.9%;
-  max-width: 80px;
-  background-image: url(https://s3.amazonaws.com/agustinchavez.ninja/twitter-with-circle.svg);
-  height: 39px;
-  margin: 25px 0px 0px 0px;
-  background-repeat: no-repeat;
-  background-position: top center;
- }
-
- .githubicon {
-  width: 9.9%;
-  max-width: 80px;
-  background-image: url(https://s3.amazonaws.com/agustinchavez.ninja/github-with-circle.svg);
-  height: 39px;
-  margin: 25px 0px 0px 0px;
-  background-repeat: no-repeat;
-  background-position: top center;
- }
-
- .googleplusicon {
-  width: 9.9%;
-  max-width: 80px;
-  background-image: url(https://s3.amazonaws.com/agustinchavez.ninja/google%2B-with-circle.svg);
-  height: 39px;
-  margin: 25px 0px 0px 0px;
-  background-repeat: no-repeat;
-  background-position: top center;
- }
-
- .contactwidgets {
+#client_logos {
+  padding: 40px;
   display: inline-block;
+    width:100%;
+  position: absolute;
+  left: 250px;
+  }
+
+}
+ .contactwidgets {
+  display: inline;
+
  }
