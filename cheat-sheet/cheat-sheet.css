@@ -1,0 +1,30 @@
+
+
+heading p {
+    font-family: Arial;
+    font-size: 18px;
+}
+
+#container h1 {
+    font-family: Raleway;
+    font-size: 45px;
+    color: #000080;
+    border-style: solid;
+    border-width: 5px;
+    padding: 5px;
+}
+
+#container h3 {
+    font-family:Cabin;
+    font-size: 28px;
+    color: #2E70D4;
+}
+
+#container p{
+    font-family:Exo;
+    font-size: 19px;
+    color: #546868;
+    border-style: dotted;
+    border-width: 2px;
+    padding: 4px;
+}
