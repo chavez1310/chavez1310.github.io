@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<head>
+  <title>Ruby Objects & Common Methods</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="cheat-sheet.css">
+  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Exo' rel='stylesheet' type='text/css'>
+</head>
+    <body>
+        <div id="container">
+            <div id="header">
+
+            </div>
+            <div id="body">
+                <header>
+                    <div id="heading">
+                    <h5>Ruby comes out of the box with tons of methods ready to use.
+                        These methods belong to specific objects, also known as classes, in Ruby. Below you will find a list of common Ruby methods organized by what object they belong to. Some methods belong to many objects.</h5>
+                    </div>
+                </header>
+             <div id ="container">
+                 <h1>Array</h1>
+                 <h3>￼clear</h3>
+                 <p>Clears the contents of an array.<br>
+                     my_array = [1, 2, 3] my_array.clear # my_array = []</p>
+                     <h3>concat</h3>
+<p>Appends one array to another.<br>
+￼
+my_array_1 = [‘d’, ‘e’, ‘f’]
+my_array_2 = [‘g’, ‘h’]
+    my_array_1.concat(my_array_2) # my_array_1 = [‘d’, ‘e’, ‘f’, ‘g’, ‘h’]</p>
+    <h3>count</h3>
+<p>Counts the number of elements in an array.<br>
+    my_array = [‘d’, ‘e’, ‘f’] my_array.count # 3</p>
+
+    <h3>delete</h3>
+<p>Deletes the specified value from an array.<br>
+my_array = [‘a’, ‘b’, ‘c’]
+    my_array.delete(‘a’) # returns ‘a’;; my_array = [‘b’, ‘c’]</p>
+    <h3>drop</h3>
+<p>Drops the specified number of elements from an array and returns a new array with the elements left over.<br>
+<p>my_array = [‘a’, ‘b’, ‘c’]
+    my_new_array = my_array.drop(2) # my_new_array = [‘c’]</p>
+    <h3>empty?</h3>
+    <p>Returns true or false depending on whether the array has any elements.<br>
+        my_array = [‘a’, ‘b’, ‘c’] my_array.empty? # false my_other_array = [] my_other_array.empty? # true</p>
+        <h3>eql?</h3>
+<p>Returns true or false depending on whether two arrays have the same content.<br>
+my_array_1 = [‘d’, ‘e’, ‘f’] my_array_2 = [‘g’, ‘h’] my_array_1.eql?(my_array_2) # false my_array_3 = [‘x’, ‘y’]
+my_array_4 = [‘x’, ‘y’] my_array_3.eql?(my_array_4) # true
+You can also compare parts of arrays and strings:
+    my_array_1[0].eql?(‘d’) # true</p>
+￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼
+    <h3>fetch</h3>
+<p>Attempts to return the value of the specified position (index). Ruby is zero-indexed!<br>
+my_array = [‘a’, ‘b’, ‘c’]
+my_array.fetch(0) # returns ‘a’
+    my_array.fetch(5) # throws an error because the 5th position does not exist in my_array</p>
+    <h3>first</h3>
+<p>Returns the first element, or the number of elements specified starting at the beginning of the array.<br>
+my_array = [‘a’, ‘b’, ‘c’]
+my_array.first # returns ‘a’
+    my_array.first(2) # returns [‘a’, ‘b’]</p>
+    <h3>index</h3>
+<p>Returns the index of the specified element.<br>
+    my_array = [‘a’, ‘b’, ‘c’] my_array.index(‘b’) # returns 1</p>
+    <h3>join</h3>
+    <p>Returns a string containing each array element separated by the specified symbol.</br>
+    my_array = [‘a’, ‘b’, ‘c’] my_array.join(‘-’) # returns ‘a-b-c’</p>
+
+    <h3>last</h3>
+    <p>Returns the last element, or the number of elements specified starting at the end of the array and moving backward.<br>
+my_array = [‘a’, ‘b’, ‘c’]
+my_array.last # returns ‘c’
+        my_array.last(2) # returns [‘b’, ‘c’]</p>
+        <h3>length</h3>
+        <p>Returns the number of elements in an array.<br>
+            my_array = [‘a’, ‘b’, ‘c’] my_array.length # 3 [].length # 0</p>
+            <h3>new</h3>
+<p>Returns a new empty array.<br>
+    my_array = Array.new # my_array = []</p>
+    <h3>push</h3>
+<p>Pushes the specified element(s) to an array.<br>
+my_array = [‘a’, ‘b’, ‘c’]
+    my_array.push(‘d’, ‘e’) # my_array = [‘a’, ‘b’, ‘c’, ‘d’, ‘e’]</p>
+    <h3>replace</h3>
+<p>Replaces the contents of an array with a new array.<br>
+my_array = [‘a’, ‘b’, ‘c’]
+my_array.replace([1, 2, 3]) # my_array = [1, 2, 3]<p>
+
+    <h3>sort</h3>
+<p>Sorts an array and returns the sorted array.<br>
+    my_array = [2, 3, 1, 5, 12, 6] my_array.sort # returns [1, 2, 3, 5, 6, 12]</p>
+    <h3>uniq</h3>
+Removes duplicate values from an array and returns a new array with the elements left over.<br>
+    my_array = [‘a’, ‘b’, ‘a’, ‘c’, ‘b’, ‘d’, ‘a’] my_array.uniq # returns[‘a’, ‘b’, ‘c’, ‘d’]</p>
+    <h1>Hash</h1>
+    <h3>assoc</h3>
+<p>Searches a hash for the specified key. Returns an array including the specified key and the found value.<br>
+    my_hash = {'colors' => ['red', 'green'], 'size' => 'large'} my_hash.assoc(‘size’) # returns [‘size’, ‘large’] my_hash.assoc(‘colors’) # returns [‘colors’, [‘red’, ‘green’]]</p>
+    <h3>clear</h3>
+<p>Clears the contents of a hash.<br>
+    my_hash = {‘color’ => ‘blue’, ‘size’ => ‘small’} my_hash.clear # my_hash = {}</p>
+    <h3>delete</h3>
+<p>Deletes the specified key from the hash and returns the value being deleted.<br>
+    my_hash = {‘color’ => ‘blue’, ‘size’ => ‘small’} my_hash.delete(‘color’) # returns ‘blue’;; my_hash = {‘size’ => ‘small’}</p>
+
+    <h3>empty?</h3>
+<p>Returns true or false depending on whether the hash has any key / value pairs.<br>
+    my_hash = {‘color’ => ‘blue’, ‘size’ => ‘small’} my_hash.empty? # false
+my_other_hash = Hash.new
+    my_other_hash.empty? # true</p>
+    <h3>fetch</h3>
+<p>Returns the value of the specified key.<br>
+    my_hash = {‘color’ => ‘blue’, ‘size’ => ‘small’} my_hash.fetch(‘size’) # returns ‘small’</p>
+    <h3>has_key?</h3>
+<p>Returns true or false depending on whether the hash contains the specified key.<br>
+    my_hash = {‘color’ => ‘blue’, ‘size’ => ‘small’} my_hash.has_key?(‘size’) # returns true my_hash.has_key?(‘location’) # returns false</p>
+    <h3>keys</h3>
+<p>Returns a new array containing the keys of the hash.<br>
+    my_hash = {‘color’ => ‘blue’, ‘size’ => ‘small’} my_hash.keys # returns [‘color’, ‘size’]</p>
+    <h3>length</h3>
+<p>Returns the number of key / value pairs in the hash.<br>
+    my_hash = {‘color’ => ‘blue’, ‘size’ => ‘small’} my_hash.length # returns 2</p>
+
+    <h3>new</h3>
+<p>Returns a new empty hash.<br>
+    my_hash = Hash.new # my_hash = {}</p>
+    <h3>replace</h3>
+<p>Replaces the key / value pairs of a hash with a new hash.<br>
+    my_hash = {‘fruit’ => ‘apple’, ‘vegetable’ => ‘spinach’} my_hash.replace({‘starch’ => ‘potato’, ‘drink’ => ‘water’}) # my_hash = {‘starch’ => ‘potato’, ‘drink’ => ‘water’}</p>
+    <h3>values</h3>
+<p>Returns a new array containing the values of the hash.<br>
+    my_hash = {‘color’ => ‘blue’, ‘size’ => ‘small’} my_hash.values # returns [‘blue’, ‘small’]</p>
+    <h1>Integer</h1>
+    <h3>even?</h3>
+<p>Returns true or false depending on whether the number is even.<br>
+    2.even? # true 7.even? # false</p>
+    <h3>next</h3>
+<p>Returns one number greater.<br>
+    10.next # returns 11</p> <h3>odd?</h3>
+<p>Returns true or false depending on whether the number is odd.<br>
+    3.odd? # true 10.odd? # false</p>
+    ￼￼￼￼￼￼￼￼￼￼￼￼<h3>pred</h3>
+<p>Returns one number lesser.<br>
+    10.pred # returns 9 </p>
+    <h3>round</h3>
+<p>Rounds a number to the specified number of decimal points. Defaults to 0. Will not add extra zeros if number is whole.<br>
+100.round # 100
+100.round(3) # 100.0
+    100.92857985703458034.round(5) # 100.92858</p>
+    <h1>String</h1>
+    <h3>capitalize</h3>
+<p>Replaces the first letter of a string with uppercase, and the rest of the letters with lowercase.<br>
+    ‘BrOoKlYn’.capitalize # ‘Brooklyn’ ‘NEW yoRK’.capitalize # ‘New york’</p>
+￼￼￼￼￼￼￼￼￼￼￼
+    <h3>chomp</h3>
+<p>Removes the new line from the end of a string, or a specified portion of a string, and returns a new string.
+“\n” adds a new line to the end of a string and must be inside double quotes:<br>
+“hello there\n”
+chomp removes the new line:
+“hello there\n”.chomp # returns “hello there” chomp can also remove portions of a string and return what’s left:
+    ‘Hello World!’.chomp(‘ World!’) # returns “Hello”</p>
+    <h3>chop</h3>
+<p>Removes the last character from a string and returns a new string. Also removes the new line from the end of a string.
+“\n” adds a new line to the end of a string and must be inside double quotes:<br>
+“hello there\n”
+chop removes the new line:
+“hello there\n”.chop # returns “hello there” chop also removes the last character from a string:
+    ‘hello there’.chop # returns ‘hello ther’</p>
+    <h3>clear</h3>
+Makes an empty string.<br>
+    ‘Dev’.clear # ‘’</p>
+￼￼￼￼￼￼￼￼￼￼
+    <h3>downcase</h3>
+<p>Replaces all uppercase letters in a string with lowercase.<br>
+    ‘BrOoKlYn’.downcase # returns ‘brooklyn’</p>
+    <h3>empty?</h3>
+<p>Returns true or false depending on whether a string is empty or has contents.<br>
+‘Dev’.empty? # returns false “”.empty? # returns true<p>
+    <h3>eql?</h3>
+    <p>Returns true or false depending on how two strings compare. The strings are considered equal if their content and length are the same.</br>
+‘apple’.eql?(‘orange’) # returns false
+    ‘banana’.eql?(‘banana’) # returns true</p>
+    <h3>insert</h3>
+<p>Inserts the given character(s) into a string at the given index. Ruby is zero-indexed!<br>
+‘Brooklyn’.insert(0, ‘X’) # ‘XBrooklyn’ - X is inserted at the 0 position of the string ‘Brooklyn’, which is the beginning
+    ‘New York’.insert(8, ‘XYZ’) # ‘New YorkXYZ’ - X is inserted at the 8th position of the string ‘New York’, which is the end</p>
+    <h3>length</h3>
+    <p>Returns the length of the string.<br>
+        ‘hello’.length # returns 5</p>
+￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼
+        <h3>lstrip</h3>
+<p>Removes leading whitespace from a string.<br>
+    ‘ hello’.lstrip # ‘hello’</p>
+    <h3>replace</h3>
+<p>Replace the existing string with a new string.<br>
+    ‘hello’.replace(‘world’) # ‘world’</p>
+    <h3>rstrip</h3>
+    <p>Removes trailing whitespace from a string.<br>
+        ‘hello ’.rstrip # ‘hello’</p>
+        <h3>strip</h3>
+<p>Removes leading and trailing whitespace from a string.<br>
+    ‘ hello ’.strip # ‘hello’</p>
+    <h3>to_i</h3>
+<p>Attempts to convert a string to a number, starting at the beginning of the string. Any characters including and after the first letter are ignored. 0 is returned if the string cannot be converted to a number.<br>
+‘123abc’.to_i # 123
+    ‘dev’.to_i # 0</p>
+    <h3>upcase</h3>
+    <p>Replaces all lowercase letters in a string with uppercase.<br>
+city = ‘BrOoKlYn’<br>
+        city.upcase # returns ‘BROOKLYN’</p>
+
+
+<h5>More Information About Ruby<h5>
+    <p>For more information about Ruby, check out the Ruby Documentation.</p>
+                </div>
+            </div>
+    </body>
+    </html>
