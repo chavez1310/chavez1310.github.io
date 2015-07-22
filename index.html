@@ -1,69 +1,25 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="default.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-<meta charset="UTF­8">
-<title>Agustin Chavez</title>
-</head>
-<body>
+---
+layout: default
+---
 
-
-   <div class="header">
-        <div class="dropdown">
-          <img src="http://s3.amazonaws.com/codecademy-content/projects/2/milford-school/menu.svg" width="30px">
-          <ul class="dropdown-menu">
-            <li>Home</li>
-            <li>About</li>
-      <li><a href="https://github.com/chavez1310">Portfolio</a></li>
-      <li><a href="http://chavez1310.github.io/blog:index.html">Blog</a></li>
-      <li><a href="#contact">Contact</a></li>
-         </ul>
-        </div>
-        <h1>Agustin Chavez</h1>
-        </div>
-
-    </div>
-
-
-  <div class= "main">
-    <h1>Agustin Chavez</h1>
-      <p>Something cool and inspirational</p>
+<div class="home" id="home">
+  <h1 class="pageTitle">Recent Posts</h1>
+  <ul class="posts noList">
+    {% for post in paginator.posts %}
+      <li>
+        <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+        <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+        <p class="description">{% if post.description %}{{ post.description | strip_html | strip_newlines | truncate: 250 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 250 }}{% endif %}</p>
+      </li>
+    {% endfor %}
+  </ul>
+  <!-- Pagination links -->
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous button__outline">Newer Posts</a> 
+    {% endif %}
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next button__outline">Older Posts</a>
+    {% endif %}
   </div>
-
-  <div class= "aboutmepic">
-    <div class="about">
-      <h3><a href="http://chavez1310.github.io/blog/about.html">About Me</a></h3>
-        <p>I am an aspiring junior web developer, currently enrolled at dev bootcamp, hoping to make a splash in the tech community!</p>
-    </div>
-  </div>
-
- <div class= "contact">
-
-  <h1>Get In Touch</h1>
-    <p><strong>Interested in working together?</strong><br>
-    Send me an email with some information about your project. Please allow up to a couple of business days for me to respond.</p>
-
-  <div id="client_logos">
-    <img style="display: inline; margin: 0 5px;" title="email_logo" src="https://s3.amazonaws.com/agustinchavez.ninja/mail-with-circle.svg" alt="" width="150" height="50" />
-    <img style="display: inline; margin: 0 5px;" title="twitter_logo" src="https://s3.amazonaws.com/agustinchavez.ninja/twitter-with-circle.svg" alt="" width="150" height="50" />
-    <img style="display: inline; margin: 0 5px;" title="github_logo" src="https://s3.amazonaws.com/agustinchavez.ninja/github-with-circle.svg" alt="" width="150" height="50" />
-    <img style="display: inline; margin: 0 5px;" title="googleplus_logo" src="https://s3.amazonaws.com/agustinchavez.ninja/google%2B-with-circle.svg" alt="" width="150" height="50" />
-  </div>
-
 </div>
-
-<FOOTER>
-  <p>&copy  Agustin Chavez</p>
-</FOOTER>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-
- <script src="http://s3.amazonaws.com/codecademy-content/projects/jquery.min.js"></script>
-
-<script src='script.js'></script>
-</body>
-</html>

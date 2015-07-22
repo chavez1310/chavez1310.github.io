@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agustin Chavez</title>
+    <description>A blog by DBC student.</description>
+    <link>http://chavez1310.github.io//</link>
+    <atom:link href="http://chavez1310.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 22 Jul 2015 14:59:44 -0500</pubDate>
+    <lastBuildDate>Wed, 22 Jul 2015 14:59:44 -0500</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      
+      <item>
+        <title>Conflicts</title>
+        <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;E&lt;/span&gt;veryone has had conflicts, they are an inevitable result of living in communities and interacting with people. Dealing with conflicts can be tricky, I believe the best thing you can do in order to avoid an escalation of conflict, is to be completely honest, and resolve thing amicably.
+&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ve had my share of conflicts in the past, most of the time I&amp;#39;ve bee able to diffuse the situation, but on some occassions, emotions may have gotten the better of both parties.&lt;/p&gt;
+
+&lt;p&gt;One conflict I remember having was with a teamate of mine a while ago. We were both on a soccer team that was underachieving, however I think it was safe to say that we were the two of the better players in the league. I played as a central midfielder, and he was a striker. One day during practice, our coach had us scrimmage, after a few minutes of playing it became evident that he didn&amp;#39;t want to pass the ball to anyone on his team, and he would demonstrate his anger whenever he didn&amp;#39;t get the ball.&lt;/p&gt;
+
+&lt;p&gt;After our scrimmage, I decided to talk to him, to see what was up. he reponded by saying that he didn&amp;#39;t want to pass the ball, because if he did, they would lose possession, because everyone on the team &amp;quot;sucked&amp;quot;.&lt;/p&gt;
+
+&lt;p&gt;Eventually, he left the team, and we were able to build better team spirit, and started winning games, as players on our tema started to improve.&lt;/p&gt;
+</description>
+        
+          <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;E&lt;/span&gt;veryone has had conflicts, they are an inevitable result of living in communities and interacting with people. Dealing with conflicts can be tricky, I believe the best thing you can do in order to avoid an escalation of conflict, is to be completely honest, and resolve thing amicably.
+&lt;/p&gt;
+</description>
+        
+        <pubDate>Mon, 20 Jul 2015 00:00:00 -0500</pubDate>
+        <link>http://chavez1310.github.io//blog/conflicts/</link>
+        <guid isPermaLink="true">http://chavez1310.github.io//blog/conflicts/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>What is Rails?</title>
+        <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;S&lt;/span&gt;o i&#39;ve been learning Ruby for a few weeks now, but soon i&#39;ll be diving deep into this thing called Ruby on Rails, or Rails for short. But, what is Rails? I&#39;ve decided to find out in this week&#39;s tech blog.
+&lt;/p&gt;
+
+&lt;p&gt;A man called David Heinemeier Hansson created Rails, It is software code that is added to the Ruby programming language. Technically, it is a package library (specifically, a RubyGem), that is installed using the operating system command-line interface.&lt;/p&gt;
+
+&lt;p&gt;Rails is a framework for building websites. As such, Rails establishes conventions for easier collaboration and maintenance. These conventions are codified as the Rails API (the application programming interface, or directives that control the code). The Rails API is documented online and described in books, articles, and blog posts. Learning Rails means learning how to use the Rails conventions and its API.&lt;/p&gt;
+
+&lt;p&gt;Rails combines the Ruby programming language with HTML, CSS, and JavaScript to create a web application that runs on a web server. Because it runs on a web server, Rails is considered a server-side, or “back end,” web application development platform (the web browser is the “front end”). Later, this article will describe web applications in greater depth and show why a web development framework is needed to build complex websites.&lt;/p&gt;
+
+&lt;p&gt;Rails, in a larger sense, is more than a software library and an API. Rails is the central project of a vast community that produces software libraries that simplify the task of building complex websites. Members of the Rails community share many core values, often use the same tools, and support each other with an informal network that is built on volunteerism. Overlapping the informal community is an economic network that includes jobs, recruiters, consulting firms, conferences, businesses that build websites with Rails, and investors that fund startups. Rails is popular among web startups, significantly because the pool of open source software libraries (RubyGems, or “gems”) makes it possible to build complex sites quickly.&lt;/p&gt;
+</description>
+        
+          <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;S&lt;/span&gt;o i&#39;ve been learning Ruby for a few weeks now, but soon i&#39;ll be diving deep into this thing called Ruby on Rails, or Rails for short. But, what is Rails? I&#39;ve decided to find out in this week&#39;s tech blog.
+&lt;/p&gt;
+</description>
+        
+        <pubDate>Mon, 20 Jul 2015 00:00:00 -0500</pubDate>
+        <link>http://chavez1310.github.io//blog/Rails/</link>
+        <guid isPermaLink="true">http://chavez1310.github.io//blog/Rails/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>Conflicts</title>
+        <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;C&lt;/span&gt;onsidering a time in my life when I&#39;ve been the happiest, proudest and most satisfied, I&#39;d say the following values come to mind: Family Accomplishment Helping others Persistence Integrity Honesty Self-respect I do live by a code, even though I think it&#39;s super lame to say that you live by a code. I have a set of guidelines I created for myself, that I like to follow in order to be the best possible person I can be.
+&lt;/p&gt;
+
+&lt;p&gt;My family is very important to me, and I make it a daily effort to keep in touch with them. I try and do the best I can, because they deserve it, and more. I try to accomplish things, this lets me know that I&amp;#39;m on the right track, and doing things the right way. I do feel a bit of satisfaction at looking at my values, and knowing that I do live up to them. If I find myself feeling down at DBC, I&amp;#39;d probably take a step back, look at where I am, where I cam from, who i&amp;#39;ve become, and where I&amp;#39;m going and feel a bit better, this has always worked.&lt;/p&gt;
+</description>
+        
+          <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;C&lt;/span&gt;onsidering a time in my life when I&#39;ve been the happiest, proudest and most satisfied, I&#39;d say the following values come to mind: Family Accomplishment Helping others Persistence Integrity Honesty Self-respect I do live by a code, even though I think it&#39;s super lame to say that you live by a code. I have a set of guidelines I created for myself, that I like to follow in order to be the best possible person I can be.
+&lt;/p&gt;
+</description>
+        
+        <pubDate>Mon, 13 Jul 2015 00:00:00 -0500</pubDate>
+        <link>http://chavez1310.github.io//blog/combat-stereotype/</link>
+        <guid isPermaLink="true">http://chavez1310.github.io//blog/combat-stereotype/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>JavaScript vs. Ruby</title>
+        <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;S&lt;/span&gt;o JavaScript, after spending a few weeks getting familiar with Ruby, this week, we took a look at a new language, you guessed it, JavaScript. Now, I know you&#39;re probably thinking, &quot;Hey! You just started learning one programming language, now you&#39;re going to start learning a second?! Who do you think you are?!&quot; To that I say, hey man, it wasn&#39;t my idea, and also, why do you care so much, and how did you get to my blog?
+&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;m going to write about some of differences I&amp;#39;ve noticed between the tow languages so far, so bare with me...&lt;/p&gt;
+
+&lt;p&gt;Iteration. It has tons of uses, but it pretty much comes down to going through an array or other enumerable object and doing something with each item.In Ruby, there are many ways to do this, but the most common way is by using iterators and blocks.&lt;/p&gt;
+
+&lt;p&gt;In JavaScript, there are also a few different ways to iterate through an enumerable, but so far, I have found the easiest way to do so is by using the for loop.&lt;/p&gt;
+</description>
+        
+          <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;S&lt;/span&gt;o JavaScript, after spending a few weeks getting familiar with Ruby, this week, we took a look at a new language, you guessed it, JavaScript. Now, I know you&#39;re probably thinking, &quot;Hey! You just started learning one programming language, now you&#39;re going to start learning a second?! Who do you think you are?!&quot; To that I say, hey man, it wasn&#39;t my idea, and also, why do you care so much, and how did you get to my blog?
+&lt;/p&gt;
+</description>
+        
+        <pubDate>Mon, 13 Jul 2015 00:00:00 -0500</pubDate>
+        <link>http://chavez1310.github.io//blog/JS-Ruby/</link>
+        <guid isPermaLink="true">http://chavez1310.github.io//blog/JS-Ruby/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>Stereotype threat</title>
+        <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;S&lt;/span&gt;o, the stereotype threat... yes it&#39;s real. As a member of the underrepresented group in both tech and the legal field, I can&#39;t recall the amount of time my peers have decided against doing something great, because of the fear they have of not belonging.
+&lt;/p&gt;
+
+&lt;p&gt;Growing up in a Latino neighborhood, I&amp;#39;ve met plenty of young people who were brilliant, but who end up dropping out high school or college, and working dead end jobs. From the conversation I&amp;#39;ve had with friends and family, I believe they end up leaving school, and not reaching their potential because they fear not fitting in, or they fear being ostracized from their social group.&lt;/p&gt;
+
+&lt;p&gt;After reading a bit about what Dr. Steele, and his research, I can totally see where he is coming from, and understand what he means when he says, “If you care about what you are doing, the prospect of being judged is upsetting and distressing and disturbing,” he said. “In a situation like this, it takes cognitive resources away from a relaxed engagement with the task at hand and that undermines your performance.”&lt;/p&gt;
+
+&lt;p&gt;Personally, I used my ethnicity as fuel, in college I always had a little bit of a chip on my shoulder, like if I had something to prove to everyone, and I was eager to represent well. I was usually one of only a handful of Latinos/as in lectures, and usually the only one in smaller classes, I remember making sure to always pronounce my name in Spanish, whenever someone would ask it, I wanted everyone to know that their was a Latino in class who was just as smart and capable as the best of them.&lt;/p&gt;
+</description>
+        
+          <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;S&lt;/span&gt;o, the stereotype threat... yes it&#39;s real. As a member of the underrepresented group in both tech and the legal field, I can&#39;t recall the amount of time my peers have decided against doing something great, because of the fear they have of not belonging.
+&lt;/p&gt;
+</description>
+        
+        <pubDate>Sun, 28 Jun 2015 00:00:00 -0500</pubDate>
+        <link>http://chavez1310.github.io//blog/stereotype-threat/</link>
+        <guid isPermaLink="true">http://chavez1310.github.io//blog/stereotype-threat/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>Issues in Tech</title>
+        <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;T&lt;/span&gt;he tech industry is a relatively new field, I mean computers really weren&#39;t really accessible until the 90&#39;s, so as a nascent industry, it&#39;s bound to run into a few problems early on. One of said problems is diversity, it seems the early members of the tech industry are a pretty homogenous group, consiting of males who are mostly White or Asian.&lt;/p&gt;
+
+&lt;p&gt;Now, this is understandable to some degree, technology is an expensive field to break into, making it difficult for members of other ethnic backgrounds to break into. As a member of an ethnic background who is underrepresented in tech, I can tell you that growing up, a career in tech wasn&amp;#39;t even acknowledged as a possibility, and I didn&amp;#39;t even know what computer science was until I got to college!&lt;/p&gt;
+
+&lt;p&gt;One of the things the tech industry can do to try and improve gender and racial equality is to provide female and minority entrepreneurs with access to funding models that reduce gender and racial bias.&lt;/p&gt;
+</description>
+        
+          <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;T&lt;/span&gt;he tech industry is a relatively new field, I mean computers really weren&#39;t really accessible until the 90&#39;s, so as a nascent industry, it&#39;s bound to run into a few problems early on. One of said problems is diversity, it seems the early members of the tech industry are a pretty homogenous group, consiting of males who are mostly White or Asian.&lt;/p&gt;
+
+&lt;p&gt;Now, this is understandable to some degree, technology is an expensive field to break into, making it difficult for members of other ethnic backgrounds to break into. As a member of an ethnic background who is underrepresented in tech, I can tell you that growing up, a career in tech wasn&amp;#39;t even acknowledged as a possibility, and I didn&amp;#39;t even know what computer science was until I got to college!&lt;/p&gt;
+</description>
+        
+        <pubDate>Sun, 28 Jun 2015 00:00:00 -0500</pubDate>
+        <link>http://chavez1310.github.io//blog/Issues-tech/</link>
+        <guid isPermaLink="true">http://chavez1310.github.io//blog/Issues-tech/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>Class Methods</title>
+        <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;C&lt;/span&gt;lass methods are methods that are called on a class, they exist on a class, even whe we don&#39;t have an instance. Defining class methods is very simple. We do it just the same way we do instance methods except that we put the self keyword in front of it. So, self.method_name let&#39;s us know that that is a class method.&lt;/p&gt;
+
+&lt;p&gt;When should I use a class method? You may ask. Class methods are for anything that does not deal with an individual instance of a class.We are going to use a class method when we want the class, to do something for us. Even though there may not be an instance in sight. It doesn&amp;#39;t matter, maybe there are instances, maybe there aren&amp;#39;t.&lt;/p&gt;
+
+&lt;p&gt;We can write methods inside of our classes. Writing methods inside of classes is powerful, because the methods can apply only to the individual instance that we&amp;#39;re working with.&lt;/p&gt;
+</description>
+        
+          <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;C&lt;/span&gt;lass methods are methods that are called on a class, they exist on a class, even whe we don&#39;t have an instance. Defining class methods is very simple. We do it just the same way we do instance methods except that we put the self keyword in front of it. So, self.method_name let&#39;s us know that that is a class method.&lt;/p&gt;
+</description>
+        
+        <pubDate>Sun, 28 Jun 2015 00:00:00 -0500</pubDate>
+        <link>http://chavez1310.github.io//blog/Class-methods/</link>
+        <guid isPermaLink="true">http://chavez1310.github.io//blog/Class-methods/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>Ruby Classes</title>
+        <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;S&lt;/span&gt;o, How about Classes? Classes in Ruby, like everything else, are an object. Classes let you define variables and methods that you can reuse over and over again. One way to do this, is to use instance variables, instances variables are essentially a copy of the Class template with all of the general information filled in. instance variables are prefaced with the @ symbol, and you can call them on anywhere within the class.&lt;/p&gt;
+
+&lt;p&gt;As we&amp;#39;ve been going along learning Ruby, we&amp;#39;ve been working with various types. Numbers, strings, arrays, and hashes. We haven&amp;#39;t gotten too far along into what they actually are under the hood though. Although we&amp;#39;ve been calling these types, Ruby calls these things classes. The types that we&amp;#39;ve been using so far are all built into Ruby and come along with it when you download or install Ruby as part of Ruby&amp;#39;s core API.&lt;/p&gt;
+
+&lt;p&gt;We&amp;#39;re not limited to working only with the built in classes that Ruby provides for us. We can also create our own. Why would we wanna do this? Well, I&amp;#39;m so glad you asked. As we&amp;#39;re going along creating a program, it can be cumbersome to remember each small nuanced part of what we&amp;#39;re working with and remember those parts in terms that computers understand. We start to abstract that away using representations of things we&amp;#39;re used to in the real world. These representations are called classes.&lt;/p&gt;
+
+&lt;p&gt;You can think of a class as a blueprint. The blueprint tells Ruby how a class should be structured and what it should do. For example, a blueprint of a car would show how a car can be made. What it doesn&amp;#39;t do is get into the specific details about an individual car, like the color.&lt;/p&gt;
+</description>
+        
+          <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;S&lt;/span&gt;o, How about Classes? Classes in Ruby, like everything else, are an object. Classes let you define variables and methods that you can reuse over and over again. One way to do this, is to use instance variables, instances variables are essentially a copy of the Class template with all of the general information filled in. instance variables are prefaced with the @ symbol, and you can call them on anywhere within the class.&lt;/p&gt;
+</description>
+        
+        <pubDate>Sun, 21 Jun 2015 00:00:00 -0500</pubDate>
+        <link>http://chavez1310.github.io//blog/ruby-classes/</link>
+        <guid isPermaLink="true">http://chavez1310.github.io//blog/ruby-classes/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>Issues in Tech</title>
+        <description>&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;What was it like to pair with others to solve challenges? --I enjoy pairing with others, so far, I&amp;#39;ve only had good experiences, and solving problems with a pair, is a good opportunity to learn new methods from each other.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Was something particularly fun or rewarding? --When we get on the same page right away, and just fly through a challenge, I really like when this happens, it makes it seem like we&amp;#39;re both on top of things.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Was something frustrating and difficult for you? --So far, I&amp;#39;ve only had pleasant experiences with my pairs, I feel like i&amp;#39;ve been heard, and I like to give my partner the same respect.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!-- &lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;Feedback&lt;/span&gt;&lt;/p&gt; --&gt;
+
+&lt;p&gt;FEEDBACK
+&lt;br&gt;
+1. How did you feel when you read your feedback? --Good, like I said, so far, I&amp;#39;ve only had good experiences with my pairs.&lt;/p&gt;
+
+&lt;p&gt;2.Was the feedback you received helpful to your learning? --It was helpful.&lt;/p&gt;
+
+&lt;p&gt;3.Based on the feedback you&amp;#39;ve received, what are you going to do to improve next time you pair? --I will try to be more proactive when deciding what to do.&lt;/p&gt;
+
+&lt;p&gt;4.How was it to write feedback? --Writing something actionable is pretty difficult, I feel like i&amp;#39;m being nitpicky, but it is something I have to get better at.&lt;/p&gt;
+
+&lt;p&gt;5.What was most difficult for you when writing feedback for your pair? --The most difficult part about writing feedback was trying to figure a place where my pair could improve, like I said, so far my pairs have all been great.&lt;/p&gt;
+</description>
+        
+          <description>&lt;ol&gt;
+&lt;li&gt;What was it like to pair with others to solve challenges? --I enjoy pairing with others, so far, I&amp;#39;ve only had good experiences, and solving problems with a pair, is a good opportunity to learn new methods from each other.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        
+        <pubDate>Sun, 14 Jun 2015 00:00:00 -0500</pubDate>
+        <link>http://chavez1310.github.io//blog/issues-tech/</link>
+        <guid isPermaLink="true">http://chavez1310.github.io//blog/issues-tech/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>Enumerable group_by</title>
+        <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;I&lt;/span&gt;n the simplest possible terms I could put it in, the enumerable method group_by pretty much just breaks a collection into groups bsed on a given criteria. When you use group_by, what is expected is a block containg the criteria by which the items are going to be grouped, and it returns a hash in which each key represents a groups, and the values are the corresponding arrays containing the members of the group.
+
+&lt;/p&gt;
+
+&lt;p&gt;The group_by method has slightly different affects depending on whether you are using it on an array or a hash, however I&amp;#39;m still trying to understand this part, more to follow...&lt;/p&gt;
+</description>
+        
+          <description>&lt;p&gt;&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;I&lt;/span&gt;n the simplest possible terms I could put it in, the enumerable method group&lt;em&gt;by pretty much just breaks a collection into groups bsed on a given criteria. When you use group&lt;/em&gt;by, what is expected is a block containg the criteria by which the items are going to be grouped, and it returns a hash in which each key represents a groups, and the values are the corresponding arrays containing the members of the group.&lt;/p&gt;
+</description>
+        
+        <pubDate>Sun, 14 Jun 2015 00:00:00 -0500</pubDate>
+        <link>http://chavez1310.github.io//blog/Enumerable/</link>
+        <guid isPermaLink="true">http://chavez1310.github.io//blog/Enumerable/</guid>
+        
+        
+      </item>
+      
+    
+  </channel>
+</rss>
